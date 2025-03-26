@@ -1,0 +1,8 @@
+{
+  "name": "headless-rn-skia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mackenzie Salisbury <mack@tykeelabs.com>",
+  "license": "MIT",
+  "private": true
+}
