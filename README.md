@@ -1,3 +1,5 @@
+See: https://github.com/Shopify/react-native-skia/issues/3060
+
 # Reproducing the problem
 
 1. Install node v18.20.4 (or later version, probably not relevant) and yarn.
