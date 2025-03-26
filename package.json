@@ -4,5 +4,14 @@
   "main": "index.js",
   "author": "Mackenzie Salisbury <mack@tykeelabs.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@shopify/react-native-skia": "^1.12.0",
+    "gl": "^8.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "canvas": "^2.11.2",
+    "node-gyp": "^10.0.1"
+  },
+  "type": "module"
 }
