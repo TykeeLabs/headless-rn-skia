@@ -11,13 +11,9 @@ See: https://github.com/Shopify/react-native-skia/issues/3060
 4. Get the following error
 
 ```
-Error: TypeError: Cannot read properties of undefined (reading 'value')
-    at Object.toWireType (<snip>/headless-rn-skia/node_modules/canvaskit-wasm/bin/full/canvaskit.js:230:506)
-    at Object.write (<snip>/headless-rn-skia/node_modules/canvaskit-wasm/bin/full/canvaskit.js:223:383)
-    at Object.toWireType (<snip>/headless-rn-skia/node_modules/canvaskit-wasm/bin/full/canvaskit.js:224:135)
-    at Object._MakeImage (<snip>/headless-rn-skia/node_modules/canvaskit-wasm/bin/full/canvaskit.js:186:8)
-    at a.MakeImage (<snip>/headless-rn-skia/node_modules/canvaskit-wasm/bin/full/canvaskit.js:66:125)
-    at JsiSkImageFactory.MakeImage (<snip>/headless-rn-skia/node_modules/@shopify/react-native-skia/lib/commonjs/skia/web/JsiSkImageFactory.js:57:34)
+Error: Error: Enum ColorType does not have value 14 on React Native Web
+    at getEnum (<snip>/headless-rn-skia/node_modules/@shopify/react-native-skia/lib/commonjs/skia/web/Host.js:49:11)
+    at JsiSkImageFactory.MakeImage (<snip>/headless-rn-skia/node_modules/@shopify/react-native-skia/lib/commonjs/skia/web/JsiSkImageFactory.js:60:36)
     at file://<snip>/headless-rn-skia/index.js:17:34
 ```
 
